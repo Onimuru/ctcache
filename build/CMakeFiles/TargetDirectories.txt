@@ -1,0 +1,3 @@
+C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build/CMakeFiles/ctcache.dir
+C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build/CMakeFiles/edit_cache.dir
+C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build/CMakeFiles/rebuild_cache.dir

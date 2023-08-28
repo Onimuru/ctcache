@@ -1,0 +1,21 @@
+# ninja log v5
+15	49	0	clean	6da49b5c1d229c24
+3362	3461	7149186856412222	bin/ctcache.exe	44d127342b77c59c
+7	2566	7149186847398204	CMakeFiles/ctcache.dir/cmake_pch.hxx.pch	bc278a5f1ca85427
+2567	3362	7149186855455349	CMakeFiles/ctcache.dir/src/Main.cpp.obj	8ff745ac12dc6075
+5	744	7149187353850882	CMakeFiles/ctcache.dir/src/ClangTidyWarnings.cpp.obj	e60ada02d9775158
+15	52	0	clean	6da49b5c1d229c24
+8	31698	7149188061382245	CMakeFiles/ctcache.dir/cmake_pch.hxx.pch	bc278a5f1ca85427
+31702	32392	7149188068413441	CMakeFiles/ctcache.dir/src/ClangTidyWarnings.cpp.obj	e60ada02d9775158
+31699	60221	7149188346655895	CMakeFiles/ctcache.dir/src/Main.cpp.obj	8ff745ac12dc6075
+60221	60315	7149188347639386	bin/ctcache.exe	44d127342b77c59c
+11	45	0	clean	6da49b5c1d229c24
+7	2748	7149188427902161	CMakeFiles/ctcache.dir/cmake_pch.hxx.pch	bc278a5f1ca85427
+2752	3547	7149188436070315	CMakeFiles/ctcache.dir/src/ClangTidyWarnings.cpp.obj	e60ada02d9775158
+2749	3655	7149188437147434	CMakeFiles/ctcache.dir/src/Main.cpp.obj	8ff745ac12dc6075
+3655	3762	7149188438150647	bin/ctcache.exe	44d127342b77c59c
+12	48	0	clean	6da49b5c1d229c24
+7	2722	7149192625072143	CMakeFiles/ctcache.dir/cmake_pch.hxx.pch	bc278a5f1ca85427
+2725	3440	7149192632383584	CMakeFiles/ctcache.dir/src/ClangTidyWarnings.cpp.obj	e60ada02d9775158
+2722	3550	7149192633460703	CMakeFiles/ctcache.dir/src/Main.cpp.obj	8ff745ac12dc6075
+3551	3673	7149192634617607	bin/ctcache.exe	44d127342b77c59c

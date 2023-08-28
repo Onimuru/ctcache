@@ -1,0 +1,279 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/ctcache.exe"
+		},
+		{
+			"path" : "bin/ctcache.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_compile_options",
+			"target_include_directories",
+			"target_precompile_headers",
+			"set_target_properties",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 95,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 64,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 98,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 100,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 104,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 96,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DDEBUG_CONFIG -O0 -std=c++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fcolor-diagnostics"
+				},
+				{
+					"fragment" : "-Xclang -emit-pch -Xclang -include -Xclang C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build/CMakeFiles/ctcache.dir/cmake_pch.hxx -x c++-header"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/Tools/MSVC/14.38.32919/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/Tools/MSVC/14.38.32919/atlmfc/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/winrt"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/Onimuru/Code/C++/__Template/external/ctcache/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					5
+				],
+				"standard" : "20"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 4,
+					"header" : "C:/Users/Onimuru/Code/C++/__Template/external/ctcache/include/pch.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DDEBUG_CONFIG -O0 -std=c++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fcolor-diagnostics"
+				},
+				{
+					"fragment" : "-Xclang -include-pch -Xclang C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build/CMakeFiles/ctcache.dir/cmake_pch.hxx.pch -Xclang -include -Xclang C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build/CMakeFiles/ctcache.dir/cmake_pch.hxx"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/Tools/MSVC/14.38.32919/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/Tools/MSVC/14.38.32919/atlmfc/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/winrt"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/Onimuru/Code/C++/__Template/external/ctcache/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					5
+				],
+				"standard" : "20"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 4,
+					"header" : "C:/Users/Onimuru/Code/C++/__Template/external/ctcache/include/pch.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"id" : "ctcache::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-DDEBUG_CONFIG -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Xlinker /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "ctcache",
+	"nameOnDisk" : "ctcache.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"name" : "Precompile Header File",
+			"sourceIndexes" : 
+			[
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"path" : "build/CMakeFiles/ctcache.dir/cmake_pch.hxx.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/Main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "src/ClangTidyWarnings.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"path" : "build/CMakeFiles/ctcache.dir/cmake_pch.hxx",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

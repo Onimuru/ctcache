@@ -1,0 +1,251 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/LLVM/bin/clang.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is Clang, found in:
+        C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build/CMakeFiles/3.27.1/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1158 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1158 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/LLVM/bin/clang++.exe 
+      Build flags: -DDEBUG_CONFIG
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is Clang, found in:
+        C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build/CMakeFiles/3.27.1/CompilerIdCXX/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1158 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1158 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build/CMakeFiles/CMakeScratch/TryCompile-1c6if8"
+      binary: "C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build/CMakeFiles/CMakeScratch/TryCompile-1c6if8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build/CMakeFiles/CMakeScratch/TryCompile-1c6if8'
+        
+        Run Build Command(s): C:/ProgramData/Chocolatey/bin/ninja.exe -v cmTC_75201
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_75201.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_75201.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_75201.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCCompilerABI.c"
+        [2/2] cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console CMakeFiles/cmTC_75201.dir/CMakeCCompilerABI.c.obj -o cmTC_75201.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_75201.lib -Xlinker /pdb:cmTC_75201.pdb -Xlinker /version:0.0     && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build/CMakeFiles/CMakeScratch/TryCompile-0e0csm"
+      binary: "C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build/CMakeFiles/CMakeScratch/TryCompile-0e0csm"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-DDEBUG_CONFIG"
+      CMAKE_CXX_FLAGS_DEBUG: "-O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build/CMakeFiles/CMakeScratch/TryCompile-0e0csm'
+        
+        Run Build Command(s): C:/ProgramData/Chocolatey/bin/ninja.exe -v cmTC_ea268
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -DDEBUG_CONFIG  -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_ea268.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_ea268.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_ea268.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"
+        [2/2] cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -DDEBUG_CONFIG  -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console CMakeFiles/cmTC_ea268.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_ea268.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_ea268.lib -Xlinker /pdb:cmTC_ea268.pdb -Xlinker /version:0.0     && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake:83 (_record_compiler_features)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake:121 (_record_compiler_features_cxx)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build/CMakeFiles/CMakeScratch/TryCompile-cm4w3q"
+      binary: "C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build/CMakeFiles/CMakeScratch/TryCompile-cm4w3q"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-DDEBUG_CONFIG"
+      CMAKE_CXX_FLAGS_DEBUG: "-O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build/CMakeFiles/CMakeScratch/TryCompile-cm4w3q'
+        
+        Run Build Command(s): C:/ProgramData/Chocolatey/bin/ninja.exe -v cmTC_2bc8d
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -DDEBUG_CONFIG  -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview   -std=c++14 -MD -MT CMakeFiles/cmTC_2bc8d.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_2bc8d.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_2bc8d.dir/feature_tests.cxx.obj -c C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build/CMakeFiles/CMakeScratch/TryCompile-cm4w3q/feature_tests.cxx
+        [2/2] cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -DDEBUG_CONFIG  -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console CMakeFiles/cmTC_2bc8d.dir/feature_tests.cxx.obj -o cmTC_2bc8d.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_2bc8d.lib -Xlinker /pdb:cmTC_2bc8d.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake:83 (_record_compiler_features)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake:129 (_record_compiler_features_cxx)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build/CMakeFiles/CMakeScratch/TryCompile-sybhlx"
+      binary: "C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build/CMakeFiles/CMakeScratch/TryCompile-sybhlx"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-DDEBUG_CONFIG"
+      CMAKE_CXX_FLAGS_DEBUG: "-O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build/CMakeFiles/CMakeScratch/TryCompile-sybhlx'
+        
+        Run Build Command(s): C:/ProgramData/Chocolatey/bin/ninja.exe -v cmTC_115b3
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -DDEBUG_CONFIG  -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview   -std=c++14 -MD -MT CMakeFiles/cmTC_115b3.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_115b3.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_115b3.dir/feature_tests.cxx.obj -c C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build/CMakeFiles/CMakeScratch/TryCompile-sybhlx/feature_tests.cxx
+        [2/2] cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -DDEBUG_CONFIG  -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console CMakeFiles/cmTC_115b3.dir/feature_tests.cxx.obj -o cmTC_115b3.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_115b3.lib -Xlinker /pdb:cmTC_115b3.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
+      - "cmake/InterproceduralOptimization.cmake:3 (check_ipo_supported)"
+      - "CMakeLists.txt:54 (enable_ipo)"
+    directories:
+      source: "C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build/CMakeFiles/_CMakeLTOTest-CXX/src"
+      binary: "C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build/CMakeFiles/_CMakeLTOTest-CXX/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        
+        Run Build Command(s): C:/ProgramData/Chocolatey/bin/ninja.exe -v
+        [1/4] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -DDEBUG_CONFIG -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -flto=thin -MD -MT CMakeFiles/foo.dir/foo.cpp.obj -MF CMakeFiles\\foo.dir\\foo.cpp.obj.d -o CMakeFiles/foo.dir/foo.cpp.obj -c C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp
+        [2/4] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -DDEBUG_CONFIG -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -flto=thin -MD -MT CMakeFiles/boo.dir/main.cpp.obj -MF CMakeFiles\\boo.dir\\main.cpp.obj.d -o CMakeFiles/boo.dir/main.cpp.obj -c C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp
+        [3/4] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f foo.lib && C:\\PROGRA~1\\LLVM\\bin\\llvm-ar.exe qc foo.lib  CMakeFiles/foo.dir/foo.cpp.obj && C:\\PROGRA~1\\LLVM\\bin\\LLVM-R~1.EXE foo.lib && cd ."
+        [4/4] cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -DDEBUG_CONFIG -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -flto=thin -Xlinker /subsystem:console CMakeFiles/boo.dir/main.cpp.obj -o boo.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:boo.lib -Xlinker /pdb:boo.pdb -Xlinker /version:0.0   foo.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
+      - "cmake/InterproceduralOptimization.cmake:3 (check_ipo_supported)"
+      - "CMakeLists.txt:54 (enable_ipo)"
+    directories:
+      source: "C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build/CMakeFiles/_CMakeLTOTest-C/src"
+      binary: "C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build/CMakeFiles/_CMakeLTOTest-C/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        
+        Run Build Command(s): C:/ProgramData/Chocolatey/bin/ninja.exe -v
+        [1/4] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -flto=thin -MD -MT CMakeFiles/foo.dir/foo.c.obj -MF CMakeFiles\\foo.dir\\foo.c.obj.d -o CMakeFiles/foo.dir/foo.c.obj -c C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build/CMakeFiles/_CMakeLTOTest-C/src/foo.c
+        [2/4] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -flto=thin -MD -MT CMakeFiles/boo.dir/main.c.obj -MF CMakeFiles\\boo.dir\\main.c.obj.d -o CMakeFiles/boo.dir/main.c.obj -c C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build/CMakeFiles/_CMakeLTOTest-C/src/main.c
+        [3/4] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f foo.lib && C:\\PROGRA~1\\LLVM\\bin\\llvm-ar.exe qc foo.lib  CMakeFiles/foo.dir/foo.c.obj && C:\\PROGRA~1\\LLVM\\bin\\LLVM-R~1.EXE foo.lib && cd ."
+        [4/4] cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -flto=thin -Xlinker /subsystem:console CMakeFiles/boo.dir/main.c.obj -o boo.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:boo.lib -Xlinker /pdb:boo.pdb -Xlinker /version:0.0   foo.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+...

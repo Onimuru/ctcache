@@ -1,0 +1,20 @@
+[
+{
+  "directory": "C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -I\"C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/Tools/MSVC/14.38.32919/include\" -I\"C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/Tools/MSVC/14.38.32919/atlmfc/include\" -I\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um\" -I\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared\" -I\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt\" -I\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/winrt\" -IC:/Users/Onimuru/Code/C++/__Template/external/ctcache/include -DDEBUG_CONFIG -O0 -std=c++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -fvisibility-inlines-hidden -fcolor-diagnostics -Xclang -emit-pch -Xclang -include -Xclang C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build/CMakeFiles/ctcache.dir/cmake_pch.hxx -x c++-header -o CMakeFiles\\ctcache.dir\\cmake_pch.hxx.pch -c C:\\Users\\Onimuru\\Code\\C++\\__Template\\external\\ctcache\\build\\CMakeFiles\\ctcache.dir\\cmake_pch.hxx.cxx",
+  "file": "C:\\Users\\Onimuru\\Code\\C++\\__Template\\external\\ctcache\\build\\CMakeFiles\\ctcache.dir\\cmake_pch.hxx.cxx",
+  "output": "CMakeFiles\\ctcache.dir\\cmake_pch.hxx.pch"
+},
+{
+  "directory": "C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -I\"C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/Tools/MSVC/14.38.32919/include\" -I\"C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/Tools/MSVC/14.38.32919/atlmfc/include\" -I\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um\" -I\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared\" -I\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt\" -I\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/winrt\" -IC:/Users/Onimuru/Code/C++/__Template/external/ctcache/include -DDEBUG_CONFIG -O0 -std=c++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -fvisibility-inlines-hidden -fcolor-diagnostics -Xclang -include-pch -Xclang C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build/CMakeFiles/ctcache.dir/cmake_pch.hxx.pch -Xclang -include -Xclang C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build/CMakeFiles/ctcache.dir/cmake_pch.hxx -o CMakeFiles\\ctcache.dir\\src\\Main.cpp.obj -c C:\\Users\\Onimuru\\Code\\C++\\__Template\\external\\ctcache\\src\\Main.cpp",
+  "file": "C:\\Users\\Onimuru\\Code\\C++\\__Template\\external\\ctcache\\src\\Main.cpp",
+  "output": "CMakeFiles\\ctcache.dir\\src\\Main.cpp.obj"
+},
+{
+  "directory": "C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -I\"C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/Tools/MSVC/14.38.32919/include\" -I\"C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/Tools/MSVC/14.38.32919/atlmfc/include\" -I\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um\" -I\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared\" -I\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt\" -I\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/winrt\" -IC:/Users/Onimuru/Code/C++/__Template/external/ctcache/include -DDEBUG_CONFIG -O0 -std=c++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -fvisibility-inlines-hidden -fcolor-diagnostics -Xclang -include-pch -Xclang C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build/CMakeFiles/ctcache.dir/cmake_pch.hxx.pch -Xclang -include -Xclang C:/Users/Onimuru/Code/C++/__Template/external/ctcache/build/CMakeFiles/ctcache.dir/cmake_pch.hxx -o CMakeFiles\\ctcache.dir\\src\\ClangTidyWarnings.cpp.obj -c C:\\Users\\Onimuru\\Code\\C++\\__Template\\external\\ctcache\\src\\ClangTidyWarnings.cpp",
+  "file": "C:\\Users\\Onimuru\\Code\\C++\\__Template\\external\\ctcache\\src\\ClangTidyWarnings.cpp",
+  "output": "CMakeFiles\\ctcache.dir\\src\\ClangTidyWarnings.cpp.obj"
+}
+]
